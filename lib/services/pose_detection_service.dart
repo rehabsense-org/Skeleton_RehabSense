@@ -8,6 +8,11 @@ import '../models/pose_landmark.dart';
 
 /// Service that wraps the Google ML Kit Pose Detector.
 ///
+
+
+
+
+
 /// Handles initialization, inference on camera frames, and cleanup.
 /// Returns typed [PoseLandmarkData] from raw ML Kit results.
 class PoseDetectionService {
